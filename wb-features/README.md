@@ -1,4 +1,4 @@
-# Sample AEM project template
+# AEM features project
 
 This is a project template for AEM-based applications. It is build as per the archetype 10 best practices. This is a sample application to demonstrate:
 1.  Page Template, iparsys and parsys
