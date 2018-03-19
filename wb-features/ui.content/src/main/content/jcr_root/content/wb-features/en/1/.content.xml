@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-03-18T01:17:34.682+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/wb-features/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="1"
+        sling:resourceType="wb-features/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wb-features/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wb-features/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wb-features/components/structure/topnav"/>
+        <par-one
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wb-features/components/content/parsys"/>
+        <par-two
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wb-features/components/content/parsys">
+            <reference
+                jcr:created="{Date}2018-03-17T17:47:01.298+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-17T17:47:01.298+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/reference"/>
+            <download
+                jcr:created="{Date}2018-03-17T18:07:50.093+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-17T18:07:50.093+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/download"/>
+        </par-two>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <helloworld
+                jcr:created="{Date}2018-03-17T23:41:07.710+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-17T23:41:07.710+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wb-features/components/content/helloworld"/>
+            <relatedlinks
+                jcr:created="{Date}2018-03-18T01:08:04.079+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-18T01:13:55.627+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wb-features/components/content/relatedlinks"
+                image="/content/dam/geometrixx-outdoors/brand/brand_1_c02.jpg"
+                multifieldvalue="multifield"
+                richtextarea="Some important title text area"
+                title="Some important title"/>
+            <article
+                jcr:created="{Date}2018-03-18T01:17:10.782+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-18T01:17:34.679+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wb-features/components/content/article"
+                image="/content/dam/geometrixx-outdoors/activities/snowboarding/PDP_1_c05.jpg"
+                multifieldvalue="multifield"
+                richtextarea="Some important title Some important title Some important title"
+                title="Some important title"/>
+        </par>
+    </jcr:content>
+    <test/>
+</jcr:root>

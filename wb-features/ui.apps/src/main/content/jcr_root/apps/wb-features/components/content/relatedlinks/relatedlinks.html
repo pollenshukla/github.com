@@ -1,0 +1,11 @@
+<!--/* The relatedlinks component demonstrates the list of child pages under 
+a content path populated when the component renders via Sling model object.
+
+@author pollen.ace@gmail.com
+
+*/ -->
+<pre data-sly-use.links="com.pollen.aem.core.models.RelatedLinks">
+	<div data-sly-list.link="${links.childPages}" data-sly-unwrap>
+	  <div><a href="${link}.html">${link}</a></div>
+	</div>
+</pre>
