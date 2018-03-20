@@ -35,9 +35,16 @@ Or to deploy only the bundle to the author, run
 
 ## Important files path
 
-*
+* Scenario 1: configure this paragraph system to accept these OOTB components par-one and par-two : /wb-features.ui.apps/src/main/content/jcr_root/etc/designs/wb-features/_jcr_content/page
+Also, par paragraph system is to be used to configure the custom component example.
 
-*
+* Scenario 2: Create a custom Multi-Field component : /wb-features.ui.apps/src/main/content/jcr_root/apps/wb-features/components/content/article/_cq_dialog
+
+* Scenario 3: Create a custom component that consume an OSGi bundle : /wb-features.core/src/main/java/com/pollen/aem/core/models/RelatedLinks.java
+The OSGi Model class values are rendered on below component:
+ /wb-features.ui.apps/src/main/content/jcr_root/apps/wb-features/components/content/relatedlinks
+
+
 
 
 ## Maven settings
